@@ -52,7 +52,7 @@
 
 /*============== BREAKPOINTS ====================*/
 /*Large devices*/
-@media screen and   (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .skills__container {
         grid-template-columns: max-content;
         row-gap: 2rem;
@@ -60,7 +60,7 @@
 }
 /*Medium devices*/
 @media screen and (max-width: 576px) {
-    .skills__container{
+    .skills__container {
         grid-template-columns: 1fr;
     }
 
