@@ -15,7 +15,10 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">Andre</a>
+        <a href="index.html" className="nav__logo">
+          <i className="uil uil-robot"></i>
+          Andre6Dev
+        </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
@@ -44,12 +47,7 @@ const Header = () => {
               <a href="#services"
                  onClick={() => setActiveNav('#services')}
                  className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#portfolio" className="nav__link">
-                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                <i className="uil uil-briefcase-alt nav__icon"></i> Portfolio
               </a>
             </li>
             <li className="nav__item">

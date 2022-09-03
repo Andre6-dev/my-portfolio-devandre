@@ -12,8 +12,8 @@ import { Pagination } from 'swiper'
 const Testimonials = () => {
   return (
     <section className="testimonial container section">
-      <h2 className="section__title">My clients say</h2>
-      <span className="section__subtitle">Testimonial</span>
+      <h2 className="section__title">Testimonials</h2>
+      <span className="section__subtitle">Opinions</span>
 
       <Swiper className="testimonial__container"
               loop={true}
@@ -32,12 +32,12 @@ const Testimonials = () => {
               }}
               modules={[Pagination]}
       >
-        {Data.map(({ id, image, title, description }) => {
+        {Data.map(({ id, image, name, description }) => {
           return (
             <SwiperSlide className="testimonial__card" key={id}>
               <img src={image} alt="" className="testimonial__img" />
 
-              <h3 className="testimonial__name">{title}</h3>
+              <h3 className="testimonial__name">{name}</h3>
               <p className="testimonial__description">{description}</p>
             </SwiperSlide>
           )

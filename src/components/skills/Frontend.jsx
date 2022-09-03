@@ -38,7 +38,7 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">TailwindCss</h3>
+              <h3 className="skills__name">TailwindCSS</h3>
               <span className="span skills__level">Intermediate</span>
             </div>
           </div>

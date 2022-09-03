@@ -64,46 +64,11 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Backend Developer</h3>
-                <span className="qualification__subtitle">TECSUP - Arequipa</span>
+                <h3 className="qualification__title">Geological Engineer - Bachelor</h3>
+                <span className="qualification__subtitle">UNSA - Arequipa</span>
 
                 <div className="qualification__calendar-alt">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
-                </div>
-              </div>
-            </div>
-
-            {/*DATA 3 EDUCATION*/}
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Software Developer</h3>
-                <span className="qualification__subtitle">TECSUP - Arequipa</span>
-
-                <div className="qualification__calendar-alt">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            {/*DATA 4 EDUCATION*/}
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Backend Developer</h3>
-                <span className="qualification__subtitle">TECSUP - Arequipa</span>
-
-                <div className="qualification__calendar-alt">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2012 - 2017
                 </div>
               </div>
             </div>
@@ -116,11 +81,11 @@ const Qualification = () => {
             {/*DATA 1 EDUCATION*/}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Software Developer 2</h3>
-                <span className="qualification__subtitle">TECSUP - Arequipa</span>
+                <h3 className="qualification__title">Internship Trainee </h3>
+                <span className="qualification__subtitle">Poder Judicial</span>
 
                 <div className="qualification__calendar-alt">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
+                  <i className="uil uil-calendar-alt"></i> Jan 2022 - Apr 2022
                 </div>
               </div>
 
@@ -139,42 +104,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Backend Developer</h3>
-                <span className="qualification__subtitle">TECSUP - Arequipa</span>
-
-                <div className="qualification__calendar-alt">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
-                </div>
-              </div>
-            </div>
-
-            {/*DATA 3 EDUCATION*/}
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Software Developer</h3>
-                <span className="qualification__subtitle">TECSUP - Arequipa</span>
-
-                <div className="qualification__calendar-alt">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            {/*DATA 4 EDUCATION*/}
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Backend Developer</h3>
+                <h3 className="qualification__title">Integral Projects</h3>
                 <span className="qualification__subtitle">TECSUP - Arequipa</span>
 
                 <div className="qualification__calendar-alt">

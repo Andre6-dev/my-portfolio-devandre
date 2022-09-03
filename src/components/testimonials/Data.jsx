@@ -6,19 +6,19 @@ export const Data = [
   {
     id: 1,
     image: Image1,
-    name: "John Doe",
+    name: "Jose Carpio",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
     id: 2,
     image: Image2,
-    name: "John Doe",
+    name: "Cesar Bobadilla",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
     id: 3,
     image: Image3,
-    name: "John Doe",
+    name: "Edgardo Muñoz",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   }
 ]

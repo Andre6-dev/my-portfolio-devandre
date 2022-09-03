@@ -1,0 +1,59 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem;
+}
+
+.portfolio__item {
+    background: var(--container-color);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover {
+    border: 2px solid rgb(24,16,37);;
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio__social-icon {
+    font-size: 2.5rem;
+    padding-left: 6rem;
+    color: rgb(24,16,37);
+}
+
+.portfolio__social-icon:hover {
+    color: rgb(9,106,118);
+}
+
+/*============== BREAKPOINTS ====================*/
+/*Large devices*/
+@media screen and   (max-width: 992px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+/*Medium devices*/
+@media screen and (max-width: 768px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

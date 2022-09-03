@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/about.jpg"
-import CV from "../../assets/Smith-Cv.pdf"
+import AboutImg from "../../assets/profile3.png"
+import CV from "../../assets/AndreGallegosCV.pdf"
 import Info from './Info'
 
 const About = () => {
@@ -17,10 +17,10 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer,
-            I create web pages with UI / UX user interface,
-            I have years of experience and many
-            clients are happy with the projects carried out.
+            A motivated software developer from the TECSUP Technologic Institute with 3 months of experience
+            in software development.I have developed personal projects which have given me a lot of
+            learning and growth in my technical skills. Seeking to use proven skills using Spring Boot,
+            React, or Kotlin with project management via Jira.
           </p>
 
           <a download="" href={CV} className="button button--flex">
