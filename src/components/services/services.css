@@ -68,8 +68,9 @@
 .services__modal-content {
     width: 500px;
     position: relative;
+    align-items: center;
     background-color: var(--container-color);
-    padding: 4.5rem 2.5rem 2.5rem;
+    padding: 2.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
 }
 
@@ -120,6 +121,8 @@
 
 .services__item-image {
     border-radius: 1.5rem;
+    width: 350px;
+    height: 350px;
     overflow: hidden;
 }
 

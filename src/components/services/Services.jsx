@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./services.css"
 
-import androidProject from '../../assets/work1.jpg'
+import androidProject from '../../assets/projectAndroid.jpg'
 import mernProject from '../../assets/work2.jpg'
 import springProject from '../../assets/work3.jpg'
 import iosProject from '../../assets/work4.jpg'
@@ -22,7 +22,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="bx bxl-android services__icon"></i>
-            <h3 className="services__title">Android <br /> Project</h3>
+            <h3 className="services__title">Android Project</h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -33,32 +33,57 @@ const Services = () => {
           <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title">Product <br /> Designer</h3>
+              <h3 className="services__modal-title">Food Project</h3>
               <div className="services__item-image">
                 <img src={androidProject} alt="Android Project" />
               </div>
               <p className="services__modal-description">
-                Services with more than 3 years of experience.Providing
-                quality work to clients and companies.
+                DaftFood app a mobile application that makes making food easier.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon">
                   </i>
-                  <p className="services__modal-info">I develop the user interface.</p>
+                  <p className="services__modal-info">Navigation component : one activity contains
+                    multiple fragments instead of creating multiple activites.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon">
                   </i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Retrofit : making HTTP connection with the rest API
+                    and convert meal json file to Kotlin/Java object.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon">
                   </i>
-                  <p className="services__modal-info">I create ux element interactions.</p>
+                  <p className="services__modal-info">Room : Save meals in local database.</p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon">
+                  </i>
+                  <p className="services__modal-info">MVVM & LiveData : Saperate logic code from views and save the state in case the screen configuration changes.</p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon">
+                  </i>
+                  <p className="services__modal-info">Coroutines : do some code in the background.</p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon">
+                  </i>
+                  <p className="services__modal-info">View binding : instead of inflating views manually
+                    view binding will take care of that.</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon">
+                  </i>
+                  <p className="services__modal-info">Glide : Catch images and load them in imageView.</p>
                 </li>
               </ul>
 
@@ -77,10 +102,9 @@ const Services = () => {
           <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title">UI/UX <br /> Designer</h3>
+              <h3 className="services__modal-title">BeatsCode Project</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing
-                quality work to clients and companies.
+                A social app like instagram, you can make posts, follow other users, etc.
               </p>
 
               <ul className="services__modal-services grid">
